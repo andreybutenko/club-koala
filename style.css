@@ -1,0 +1,184 @@
+/*
+  Name: Andrey Butenko
+  Date: May 16, 2019
+  Section: CSE 154 AI
+  This is the style.css stylesheet for Club Koala, which styles the landing page, toolbar, and
+  chat menus.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #00b894;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body, button {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+}
+
+.side-by-side {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container,
+.content-container > h1,
+.toolbar {
+  background-color: #0984e3;
+  border: 2px solid black;
+}
+
+.content-container {
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.content-container > h1 {
+  background-color: #eee;
+  line-height: 1em;
+  width: 50%;
+  margin-top: calc(-1em - 16px);
+  margin-left: -16px;
+  padding: 16px 0 10px 16px;
+  border-radius: 16px;
+}
+
+.content {
+  width: 800px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+#canvas {
+  display: block;
+  width: 800px;
+  height: 600px;
+}
+
+.toolbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 16px;
+  border-bottom: 0;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.toolbar button {
+  padding: 16px 32px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 0;
+  cursor: pointer;
+  transition: 250ms background-color;
+}
+
+.toolbar button:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#chat-menu {
+  position: fixed;
+  bottom: 50px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+#chat-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 2px solid #b2bec3;
+  border-radius: 8px;
+  display: none;
+}
+
+#chat-menu ul.visible {
+  display: block;
+}
+
+#chat-menu ul li button {
+  min-width: 200px;
+  width: 100%;
+  background: white;
+  padding: 6px 8px;
+  border: 0;
+  transition: 250ms background-color;
+  cursor: pointer;
+}
+
+#chat-menu ul li button:hover {
+  background-color: #81ecec;
+}
+
+#chat-menu ul li:first-of-type button {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#chat-menu ul li:last-of-type button {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+#chat-menu ul li:not(:last-of-type) button {
+  border-bottom: 1px solid #b2bec3;
+}
+
+#chat-menu ul li:last-of-type button.cancel-btn {
+  background-color: #fab1a0;
+}
+
+#chat-menu ul li:last-of-type button.cancel-btn:hover {
+  background-color: #e17055;
+}
+
+.wave {
+  width: 135px;
+  height: 135px;
+  object-fit: none;
+  object-position: calc(8 * -135px) -135px;
+  margin-right: 32px;
+}
+
+#error.game-error {
+  border: 4px dotted red;
+  background-color: white;
+  color: black;
+  padding: 16px;
+}
+
+#error {
+  color: red;
+}
+
+.subtitle {
+  margin-top: 0;
+  padding-top: 1em;
+  margin-bottom: -1em;
+  color: white;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}

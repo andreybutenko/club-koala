@@ -1,0 +1,88 @@
+{
+  "chat": {
+    "Greetings": [
+      "Hi!",
+      "Hello",
+      "Hey!",
+      "Goodbye",
+      "See you"
+    ],
+    "Mood": [
+      "How are you doing?",
+      "Great!",
+      "Good",
+      "Terrible",
+      "Big mood",
+      "That's a mood",
+      "Oh no",
+      "Happy to hear that"
+    ],
+    "Animals": [
+      "What are your favorite animals?",
+      "Koalas, of course!",
+      "Cats",
+      "Dogs",
+      "Ponies",
+      "Turtles",
+      "Frogs",
+      "Fish",
+      "Bottlebrush Yowies",
+      "Birds",
+      "Birds are not real!!",
+      "Mowgli"
+    ],
+    "Emojis": [
+      "😊",
+      "😢",
+      "✨",
+      "🐨",
+      "👌",
+      "🤠"
+    ],
+    "Interact": [
+      "Let's dance!",
+      "Nice moves!",
+      "Keep it up!",
+      "#dab",
+      "I'm sleepy...",
+      "'Sko Dawgs!!"
+    ],
+    "TAs": [
+      "Lauren Bricker is the best instructor!",
+      "Melissa Hovik is the best instructor!",
+      "Conner is the best TA!",
+      "Daniel is the best TA!",
+      "Chao is the best TA!",
+      "Jack is the best TA!",
+      "Sandy is the best TA!",
+      "Ann is the best TA!",
+      "Manchen is the best TA!",
+      "Hudson is the best TA!",
+      "Manny is the best TA!",
+      "Will is the best TA!",
+      "Zach is the best TA!",
+      "Olga is the best TA!",
+      "Tal is the best TA!",
+      "Louis is the best TA!",
+      "Valerie is the best TA!",
+      "Mark is the best TA!",
+      "Kyle is the best TA!",
+      "Sven is the best TA!",
+      "Kevin is the best TA!",
+      "Kelley is the best grader!",
+      "Jeremy is the best infrastructure TA!",
+      "Sweekruthi is the best mentor!",
+      "Jeffrey is the best mentor!",
+      "Hawk is the best mentor!",
+      "I love Panopto!",
+      "Yes!"
+    ]
+  },
+  "dances": [
+    "Very Happy",
+    "Dab",
+    "Cheer Leader",
+    "Wave",
+    "Sleep"
+  ]
+}

@@ -1,0 +1,31 @@
+<!--
+  Name: Andrey Butenko
+  Date: May 16, 2019
+  Section: CSE 154 AI
+  This is the game.html page for Club Koala, where the user interacts with a <canvas> element
+  and a toolbar to play Club Koala.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <title>Club Koala</title>
+  </head>
+  <body>
+    <p id="error" class="game-error hidden">
+      There was an error and you have been disconnected from Club Koala.
+      <a href="">Click here</a> to refresh the page and reconnect.
+    </p>
+    <div id="chat-menu"></div>
+    <main>
+      <div class="content-container">
+        <h1>Welcome to Club Koala!</h1>
+        <canvas id="canvas" class="content"></canvas>
+        <p id="view-counter" class="subtitle"></p>
+      </div>
+    </main>
+    <div class="toolbar" id="toolbar"></div>
+  </body>
+</html>

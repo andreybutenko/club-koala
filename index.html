@@ -1,0 +1,44 @@
+<!--
+  Name: Andrey Butenko
+  Date: May 16, 2019
+  Section: CSE 154 AI
+  This is the index.html page for Club Koala, where the user chooses an available display name
+  with which to start playing Club Koala.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="login.js"></script>
+    <title>Club Koala</title>
+  </head>
+  <body>
+    <main>
+      <div class="content-container">
+        <h1>Welcome to Club Koala!</h1>
+        <div class="content side-by-side">
+            <img class="wave" src="assets/ksprite.png" alt="Waving koala" />
+          <div>
+            <p>
+              Club Koala is a fun place for koala lovers to hang out!
+            </p>
+            
+            <label for="username">Display Name</label>
+            <input type="text" id="username" />
+            <button id="login">Log In</button>
+            <p id="error" class="hidden">
+              That display name is already taken. Try another one.
+            </p>
+            <p id="server-error" class="hidden">
+              There was a server error while handling your request. Try again.
+            </p>
+            <p>
+              <a href="more.html">More koala-themed creations</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
